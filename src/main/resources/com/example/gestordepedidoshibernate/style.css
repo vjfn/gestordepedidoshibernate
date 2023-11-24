@@ -1,0 +1,16 @@
+/*Imagen de fondo de la aplicación*/
+.login-background {
+    -fx-background-image: url("/images/clouds.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    /*-fx-background-color: linear-gradient(from 25px 25px to 300px 300px, white,  #d6cdf9 );No utilizado*/
+}
+
+
+/*Estilo a rayas para la tabla*/
+.table-striped {
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-background-color: white; /* Color de fondo de la tabla */
+    -fx-alternate-row-color: #f2f2f2; /* Color de fondo de las filas alternas */
+}
